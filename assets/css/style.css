@@ -12,6 +12,19 @@ body {
 	background-color: red;
 }
 
+section#main-section > a {
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+}
+
+a[href="https://github.com/MichaelLawrenceNaraja"] {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
 .about {
 	width: 60%;
 	/*margin:0 auto;*/
