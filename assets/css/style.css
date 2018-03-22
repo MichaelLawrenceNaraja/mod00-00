@@ -10,6 +10,7 @@ body {
 
 #main-section {
 	background-color: red;
+	opacity: 30%;
 }
 
 section#main-section > a {
@@ -43,20 +44,27 @@ a[href="https://github.com/MichaelLawrenceNaraja"] {
 	border: solid white 5px;
 }
 
+h1:hover,#dev-description:hover,.bio:hover{
+	color:white;
+}
+
 h1 {
-	color: white;
+	color: red;
 	font-size: 50px;
 	font-weight: normal;
 }
 
+
 #dev-description {
 	padding-top: 15px;
 	padding-bottom: 15px;
-	font-size: 30px;
+	font-size: 40px;
+	color: red;
 }
 
 .bio {
-	font-size: 20px;
+	font-size: 30px;
+	color:red;
 }
 
 
@@ -77,4 +85,10 @@ h1 {
 #skills-section,
 #about-section {
 	height: 100vh;
+}
+
+#portfolio-section,
+#skills-section,
+#about-section, h2 {
+	font-size: 30px;
 }
