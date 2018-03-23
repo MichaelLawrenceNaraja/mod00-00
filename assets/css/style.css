@@ -19,7 +19,7 @@ body {
 section#main-section > a {
 	color: white;
 	text-decoration: none;
-	padding: 15px;
+	padding: 5px;
 }
 
 a[href="https://github.com/MichaelLawrenceNaraja"] {
@@ -36,6 +36,8 @@ a[href="https://github.com/MichaelLawrenceNaraja"] {
 	top: 50%;
 	left: 50%;
 	transform:  translate(-50%, -50%);
+	background-color: rgba(128, 128, 128, 0.3);
+	border-radius: 10%;
 }
 
 .my-picture {
@@ -46,12 +48,9 @@ a[href="https://github.com/MichaelLawrenceNaraja"] {
 	border: solid white 5px;
 }
 
-h1:hover,#dev-description:hover,.bio:hover{
-	color:white;
-}
 
 h1 {
-	color: red;
+	color: white;
 	font-size: 50px;
 	font-weight: normal;
 }
@@ -61,12 +60,12 @@ h1 {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	font-size: 40px;
-	color: red;
+	color: white;
 }
 
 .bio {
 	font-size: 30px;
-	color:red;
+	color: white;
 }
 
 
